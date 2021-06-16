@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <title>重庆旅游攻略</title>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="format-detection" content="telephone=no">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel='icon' href='favicon.ico' type='image/x-ico' />
+<link rel="stylesheet" href="css/default.min.css?t=227" />
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="lib/amazeui/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="lib/handlebars/handlebars.min.js"></script>
+<script type="text/javascript" src="lib/iscroll/iscroll-probe.js"></script>
+<script type="text/javascript" src="lib/amazeui/amazeui.min.js"></script>
+<script type="text/javascript" src="lib/raty/jquery.raty.js"></script>
+<script type="text/javascript" src="js/main.min.js?t=1"></script>
+</head>
+<body>
+<header>
+    <div class="header-top">
+        <div class="width-center">
+            <div class="header-logo "><img src="images/logo.png" width="110" height="40"alt=""></div>
+            <div class="header-title div-inline">
+                <strong>重庆市旅游攻略</strong>
+            </div>
+        <div class="header-right">
+            <form class="mr-auto form-inline">
+                <div class=" md-form my-0">
+                  <input class="form-control mr-sm-2" type="text" placeholder="请输入想要搜索的信息" aria-label="Search">
+                </div>
+              </form>
+        </div>
+        </div>
+    </div>
+    <div class="header-nav ">
+        <button class="am-show-sm-only am-collapsed font f-btn" data-am-collapse="{target: '.header-nav'}">Menu <i
+                class="am-icon-bars"></i></button>
+        <nav>
+        <ul class="header-nav-ul am-collapse am-in ">
+            <li class="on"><a href="index.html" name="index">网站首页</a></li>
+            <li><a href="about.html" name="about">关于重庆</a></li>
+            <li><a href="scenicspot.html" name="show">优选景区</a></li>
+            <li><a href="delicacy.html" name="new">推荐美食</a></li>
+            <li><a href="line.html" name="message">精选线路</a>
+            	<li><a href="report.html" name="message">结业报告</a>
+            </li>
+        </ul>
+
+        </nav>
+    </div>
+</header>
+<div class="am-slider am-slider-default" data-am-flexslider="{playAfterPaused: 8000 , controlNav: false, directionNav: false    }">
+   
+    <ul class="am-slides">
+        <li><img src="images/chongqing1.png" width="300" height="450" alt="" ></li>
+        <li><img src="images/chongqing2.png" width="300" height="450" alt="" ></li>
+        <li><img src="images/chongqing3.png" width="300" height="450" alt="" ></li>
+        <li><img src="images/chongqing2.png" width="300" height="450" alt="" ></li>
+        </div>
+    </ul>
+</div>
+
+
+<main>
+    <div class="index-only-small">
+        <ul>
+            <li><a href="about.html"><span></span><p>关于重庆</p></a></li>
+            <li><a href="scenicspot.html"><span></span><p>优选景区</p></a></li>
+            <li><a href="delicacy.html"><span></span><p>推荐美食</p></a></li>
+            <li><a href="line.html"><span></span><p>精选线路</p></a></li>
+            <li><a href="report.html"><span></span><p>结业报告</p></a></li>
+        </ul>
+    </div>
+    <div class="index-main-hg-title">
+        <p>关于重庆</p>
+        <span>重庆，简称渝或巴，位于中国西南部，是中华人民共和国直辖市，既以江城、雾都著称，又以山城扬名。</span>
+    </div>
+    <div class="index-main-body">
+            <ul>
+                 <li><img src="images/jiefangbei.jpg"><p>重庆建筑</p><span>解放碑是重庆标志性建筑之一，购物的天堂</span><a href="about.html">了解一下</a></li>
+                <li><img src="images/yejing.jpg" ><p>重庆夜景</p><span>夜幕降临，万家灯火，漫天星汉，极为瑰丽</span><a href="about.html">了解一下</a></li>
+                <li><img src="images/hotpot.jpg" ><p>重庆美食</p><span>味蕾的极致体验，享受欢聚时光</span><a href="about.html">了解一下</a></li>
+            </ul> 
+    </div>
+
+<div class="index-main-hg-title">
+    <p>优选景区</p>
+</div>
+<div class="index-main-body">
+    <ul>
+        <li><img src="images/nanbinlu.jpg"><p>南滨路</p><span>北临长江，背依南山，拥有“重庆外滩”的美誉</span><a href="scenicspot.html">看一看</a></li>
+        <li><img src="images/hongyadong.jpg"><p>洪崖洞</p><span>可望吊脚群楼观洪崖滴翠，逛山城老街赏巴渝文化</span><a href="scenicspot.html">看一看</a></li>
+        <li><img src="images/chaotianmen.jpg"><p>朝天门</p><span>嘉陵江与长江交汇枢纽，重庆最大水路客运码头</span><a href="scenicspot.html">看一看</a></li>
+    </ul>
+</div>
+
+<div class="index-main-hg-title">
+    <p>推荐美食</p>
+</div>
+<div class="index-main-body">
+        <ul>
+            <li><img src="images/maoxuewang.jpg"><p>毛血旺</p><span>麻辣鲜香，汁浓味足，开胃除湿</span><a href="delicacy.html">吃一吃</a></li>
+            <li><img src="images/xiaomian.jpg"><p>重庆小面</p><span>麻辣素面，灵魂佐料，可自制口味</span><a href="delicacy.html">吃一吃</a></li>
+            <li><img src="images/laziji.jpg"><p>辣子鸡</p><span>成菜色泽棕红油亮，麻辣味浓</span><a href="delicacy.html">吃一吃</a></li>
+        </ul>
+    </div>
+</main>
+<footer class="footer">
+    <div class="footer-pc">
+    <ul>
+        <li><p>网站首页 | 关于重庆 | 优选景区 | 推荐美食 | 精选线路</p></li>
+        <li><p>地址：中国重庆市南岸区</p></li>
+        <li><p>连线电话：010-52780648</p></li>
+        <li><p>邮编：400000</p></li>
+    </ul>
+    <img src="images/logo2.png" width="150" height="150" alt="">
+    </div>
+
+    <div class="footer-phone">
+        <button data-am-smooth-scroll class="am-btn am-btn-success">Top<i class="font">&#xe611;</i></button>
+    </div>
+</footer>
+</body>
+</html>
